@@ -1,0 +1,228 @@
+body{
+    width: 100em;
+    max-width: 1500px;    
+    height: 80em;
+    margin: auto;
+    overflow-x: hidden;    
+}
+
+.countainer{
+    width: auto;
+    height: 156.9em;
+    
+    border: gray solid 3px;
+}
+
+.section1A{
+    background-color: rgb(7, 60, 102);
+    width: 93.4em;
+    max-width: 1500px;
+    height: 120px;
+    margin:auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+}
+
+/* .section1B{
+    width: 100em;
+    max-width: 1500px;
+    margin: auto;
+    left: auto;
+    height: 2vh;
+    max-height: 70;
+    background-position: center;
+    font-size: 40px;
+} */
+
+*{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  position: absolute;
+  width: 26.7em;
+  top: -50px;
+  right: 102px;
+  height: 5em;
+  max-height: 70;
+  background-position: center;
+  font-size: 40px;
+  }
+
+.mySlides img{
+    height: 420%;
+    margin-left: -27px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  margin-right: -210px;
+  margin-left: -210px;
+  position: absolute;
+  top: 5vh;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 2.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: auto;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.section1B img{
+    height: 500px;
+}
+
+
+
+.responsive{
+    width: 100em;
+    max-width: 1500px;    
+    height: 80vh;
+    margin: auto;
+
+  }
+
+.section1C{
+    width: 93.4em;
+    height: 80vh;
+    min-height: 30em;
+    background-position: center;
+    margin-top: -300px;
+    position: absolute;
+    top: 700px;
+    color: green;
+    padding-bottom:0px;
+    z-index: 9999999999;
+}
+
+.section1C img{
+    height: 600px;
+    position: relative;
+    top: -40px;
+    margin-left: 0.5px;
+    width: 93.4em;
+}
+
+.write1c{
+    position: absolute;
+    color: red;
+    top: 300px;
+}
+
+.section2A{
+    background-color: #053F66;
+    width: 93.4em;
+    max-width: 1495px;
+    height: 690px;
+    top: 950px;
+    margin-left: 0.5px;
+    position: absolute;
+}
+
+.section2B{
+    width: 1100em;
+    max-width: 1500px;
+    height: 350px;
+    min-height: 30em;
+    background-position: center;
+    position: absolute;
+    top: 1300px;
+    z-index: 3333333;
+}
+
+.section2B img{
+    height: 800px;
+    top: 100px;
+    left: 0px;
+    width: 93.4em;
+}
+
+.section2C{
+    width: 93.4em;
+    height: 38em;
+    background-position: center;
+    position: absolute;
+    top: 1900px;
+    background: rgba(28, 24, 1, 0.891);
+}
+
+.section2C img{
+  height: 500px;
+  top: 110px;
+  left: 0px;
+  width: 93.4em;
+  position: absolute;
+  z-index: -5;
+  background-color: black;
+}
